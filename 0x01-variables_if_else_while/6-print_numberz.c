@@ -21,6 +21,7 @@ int main(void)
         putchar(n);
         n += 1;
     }
-    putchar('\n'); // Use putchar to print the newline character
+    putchar('\n'); /* Use putchar to print the newline character */
     return (0);
 }
+

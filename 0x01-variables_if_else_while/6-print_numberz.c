@@ -14,12 +14,13 @@
 
 int main(void)
 {
-int n = 48;
-while (n <= 57)
-{
-putchar(n);
-n += 1;
-}
-printf("\n");
-return (0);
+    int n = 48;
+
+    while (n <= 57)
+    {
+        putchar(n);
+        n += 1;
+    }
+    putchar('\n'); // Use putchar to print the newline character
+    return (0);
 }
